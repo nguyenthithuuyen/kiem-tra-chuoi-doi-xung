@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra từ đối xứng</title>
+</head>
+<body>
+<script>
+      let a="ac5ca";
+      let b="6626";
+      let c="acca";
+    function isPalindrome(a) {
+        for (let i = 0; i < a.length/2; i++) {
+            if(a[i]!=a[a.length-1-i]){
+                return false;
+            }
+        }
+        return true;
+    }
+if(isPalindrome(a)){
+    alert('true')
+}else (
+    alert('false')
+)
+      if(isPalindrome(b)){
+          alert('true')
+      }else (
+          alert('false')
+      )
+
+      if(isPalindrome(c)){
+          alert('true')
+      }else (
+          alert('false')
+      )
+</script>
+</body>
+</html>
